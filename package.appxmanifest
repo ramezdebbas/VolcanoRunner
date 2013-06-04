@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="52583Thatslink.VolcanoRunner" Version="1.0.0.0" Publisher="CN=44D17C68-1F3E-4223-8D43-0DF0DDE774CA" />
+  <Properties>
+    <DisplayName>Volcano Runner</DisplayName>
+    <Description>Runner has to run in dark world of Volcano.</Description>
+    <PublisherDisplayName>Thatslink</PublisherDisplayName>
+    <Logo>app-storelogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.2.0</OSMinVersion>
+    <OSMaxVersionTested>6.2.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" StartPage="index.html">
+      <VisualElements DisplayName="Volcano Runner" Logo="app-logo.png" SmallLogo="app-smalllogo.png" Description="Volcano Runner has to run in dark world of volcanos." ForegroundText="light" BackgroundColor="#464646">
+        <DefaultTile ShowName="allLogos" />
+        <SplashScreen Image="splashscreen.png" />
+        <InitialRotationPreference>
+          <Rotation Preference="landscape" />
+        </InitialRotationPreference>
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>
